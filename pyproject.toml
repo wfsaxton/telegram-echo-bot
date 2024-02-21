@@ -1,0 +1,21 @@
+[project]
+name = "telegram-echo-bot"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "William Saxton", email = "saxton@gmail.com"},
+]
+dependencies = [
+    "pyTelegramBotAPI>=4.16.1",
+    "fastapi>=0.109.2",
+    "uvicorn>=0.27.1",
+    "python-telegram-bot>=20.8",
+    "python-dotenv>=1.0.1",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
